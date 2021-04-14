@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, viewport-fit=cover">
+
+    <!-- PWA -->
+
+    <!-- Color de la aplicacion-->
+    <meta name="theme-color" content="#FF613D">
+
+    <!-- Optimizacion para movil -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Meta etiqueta para dispositivos Apple-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-128.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicon-128.png">
+    <link rel="apple-touch-startup-image" href="img/favicon.png">
+
+    <!-- iPhone Xs Max (1242px x 2688px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1242x2688.png">
+    <!-- iPhone Xr (828px x 1792px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-828x1792.png">
+    <!-- iPhone X, Xs (1125px x 2436px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1125x2436.png">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1242x2208.png">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-750x1334.png">
+    <!-- iPad Pro 12.9" (2048px x 2732px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-2048x2732.png">
+    <!-- iPad Pro 11” (1668px x 2388px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-1668x2388.png">
+    <!-- iPad Pro 10.5" (1668px x 2224px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-1668x2224.png">
+    <!-- iPad Mini, Air (1536px x 2048px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-1536x2048.png">
+
+
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+
+    <!--  Archivo de configuracion de PWA (Manifiesto)-->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Icono de la WEB-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <!-- Hoja de Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>Curso PWA</title>
+
+</head>
+
+
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>Felipe Charles</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#main-header">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Fin Header -->
+
+    <div class="clearfix"></div>
+
+    <div id="slider">
+        <div class="container">
+            <h2>Desarrollo WEB</h2>
+        </div>
+    </div>
+    <!-- Fin Slider -->
+
+    <div id="services">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            <div class="service">
+                <img src="img/1.png" alt="">
+                <h3>Desarrollo Web</h3>
+                <p>Ofrezco servicios de desarrollo web moderno con las mejores tecnologias y plataformas web.</p>
+            </div>
+            <div class="service">
+                <img src="img/2.png" alt="">
+                <h3>Diseno Web</h3>
+                <p>Diseno de sitios y aplicaciones web moderno, limpio y atractivo para tus clientes.</p>
+            </div>
+            <div class="service">
+                <img src="img/3.png" alt="">
+                <h3>Mentoria</h3>
+                <p>Ofrezco asesorias en el diseno y desarrollo web moderno.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Servicios -->
+
+
+    <div class="clearfix"></div>
+
+
+    <div id="videos">
+        <div class="container">
+            <h2 class="subheader">Videos</h2>
+            <div class="video">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Byn3exBGhkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, molestias consequuntur. Beatae repellendus ducimus veritatis odit vitae, esse rem minus at facere dolore consequatur quis magnam eum alias error quos.</p>
+            </div>
+            <div class="video">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3fVQQHWgW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, molestias consequuntur. Beatae repellendus ducimus veritatis odit vitae, esse rem minus at facere dolore consequatur quis magnam eum alias error quos.</p>
+            </div>
+            <div class="video">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/OtrV0NqP8lM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, molestias consequuntur. Beatae repellendus ducimus veritatis odit vitae, esse rem minus at facere dolore consequatur quis magnam eum alias error quos.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Videos -->
+
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        <div class="container">
+            <h2 class="subheader">Contacto</h2>
+            <p>Enviame un mensaje en cualquiera de estas redes</p>
+            <ul id="social">
+                <li>
+                    <a href=""><img src="img/twitter.png" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/instagram.png" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/facebook.png" alt=""></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
